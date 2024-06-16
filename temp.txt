@@ -1,0 +1,29 @@
+<div class="hero">
+<div class="content"> <div> <h1>HELLO THIS IS H1</h1> </div>  <p>HELLO THIS IS H1 </p>  </div>
+<img src="https://images.unsplash.com/photo-1590086782957-93c06ef21604?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1hbnxlbnwwfHwwfHx8MA%3D%3D" class="feature-img">
+</div>
+
+
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(https://plus.unsplash.com/premium_photo-1718198501646-a95f049e39b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8);
+	background-position: center;
+	background-size: cover;
+	padding: 10px 10%;
+	overflow: hidden;
+	position: relative;
+}
+.content {
+	width: 50%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+.feature-img {
+	height: 55%;
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+}
